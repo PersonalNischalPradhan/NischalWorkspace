@@ -1,0 +1,5 @@
+com\automation\qa\base\TestBase.class
+com\automation\qa\pages\HomePage.class
+com\automation\qa\pages\LoginPage.class
+com\automation\qa\pages\CreateAccount.class
+com\automation\qa\util\TestUtil.class

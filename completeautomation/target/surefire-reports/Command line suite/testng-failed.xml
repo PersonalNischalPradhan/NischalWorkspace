@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="40" verbose="0" name="Failed suite [Command line suite]" parallel="classes">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.automation.qa.testcases.CreateAccountTest"/>
+      <class name="com.automation.qa.testcases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)" parallel="classes">
+    <classes>
+      <class name="com.automation.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.qa.testcases.LoginPageTest -->
+      <class name="com.automation.qa.testcases.CreateAccountTest">
+        <methods>
+          <include name="validateCreateAccountPageTitleTest"/>
+          <include name="SetUp"/>
+          <include name="createAccountTest"/>
+        </methods>
+      </class> <!-- com.automation.qa.testcases.CreateAccountTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

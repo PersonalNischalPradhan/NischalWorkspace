@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;InvokeBrowser.java&apos; to &apos;completeautomation/src/main/java/com.automation.qa.base&apos;&#x0D;&#x0A;- Original project: &apos;FitNesse2&apos;&#x0D;&#x0A;- Destination element: &apos;completeautomation/src/main/java/com.automation.qa.base&apos;&#x0D;&#x0A;- Original element: &apos;NischalTutorial.FitNesse2.InvokeBrowser.java&apos;" description="Copy compilation unit" destination="=completeautomation/src\/main\/java&lt;com.automation.qa.base" element1="/src\/main\/java&lt;NischalTutorial.FitNesse2{InvokeBrowser.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1537028448753" units="1" version="1.0"/>
+</session>

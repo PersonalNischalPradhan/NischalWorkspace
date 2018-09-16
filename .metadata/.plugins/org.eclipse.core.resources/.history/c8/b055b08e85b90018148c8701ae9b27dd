@@ -1,0 +1,20 @@
+package newtestngproject.newtestng;
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeTest;
+
+public class GoogleLaunch {
+	
+	WebDriver driver;
+
+
+	@BeforeTest
+	public void LaunchBrowser() {
+ System.setProperty("webDriver.chrome.driver", "C:\\automation\\chromedriver_win32\\chromedriver.exe");
+  driver=new ChromeDriver();
+	
+	}
+
+}

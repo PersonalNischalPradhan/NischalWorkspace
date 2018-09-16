@@ -1,0 +1,32 @@
+package newtestngproject.newtestng;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
+public class TestNGPractice {
+
+	@BeforeSuite
+	
+	public void setup() {
+		System.out.println("this is @BeforeSuite ");
+	}
+	
+	@BeforeTest
+	
+	public void launchBrowser() {
+		System.out.println("this is a @BeforeTest ");
+	}
+	
+	@BeforeClass
+	public void enterURL() {
+		System.out.println("this is @BeforeClass ");
+	}
+	
+	@BeforeMethod
+		public void loginToApp() {
+			System.out.println("this is @BeforeMethod");
+		}
+	}
+}
