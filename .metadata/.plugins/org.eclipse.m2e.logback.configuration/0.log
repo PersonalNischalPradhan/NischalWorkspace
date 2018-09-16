@@ -1386,3 +1386,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration TestNGPractice refe
 2018-09-16 20:40:59,684 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-09-16 20:40:59,684 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\automation\New Workspace\newtestng_lesson\src\main\resources
 2018-09-16 20:40:59,685 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-16 20:40:59,685 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\automation\New Workspace\newtestng_lesson\src\test\resources
