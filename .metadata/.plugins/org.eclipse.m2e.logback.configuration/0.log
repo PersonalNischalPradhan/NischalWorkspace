@@ -1189,3 +1189,5 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.beanshell
 2018-09-16 16:30:47,901 [Worker-27: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: newtestngproject:completeautomation:0.0.1-SNAPSHOT @ C:\automation\New Workspace\completeautomation\pom.xml.
 2018-09-16 16:30:49,943 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-09-16 16:30:49,944 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\automation\New Workspace\completeautomation\src\main\resources
+2018-09-16 16:30:49,946 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-16 16:30:49,947 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\automation\New Workspace\completeautomation\src\test\resources
